@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:maxLength="3"
+        android:inputType="number"
+        android:id="@+id/editText_First"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"/>
+
+    <EditText
+        android:maxLength="3"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText_First"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_Second"
+        android:hint="Enter Second Number"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText_Second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:id="@+id/addButton"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+
+</RelativeLayout>
